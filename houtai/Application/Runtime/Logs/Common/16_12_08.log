@@ -1,0 +1,138 @@
+[ 2016-12-08T11:21:35+08:00 ] 127.0.0.1 /index.php/houtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000534s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002825s ]
+ERR: 无法加载模块:Houtai
+
+[ 2016-12-08T12:18:12+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000375s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:20:38+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:21:09+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:21:18+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002814s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:22:07+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:22:17+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:23:04+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:23:05+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:23:06+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:11+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:32+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:34+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000298s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002467s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:41+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:41+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:52+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:53+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:53+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001981s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T12:24:53+08:00 ] 127.0.0.1 /index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002545s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-12-08T15:57:53+08:00 ] 127.0.0.1 /index.php/index.php/admin/index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-12-08T17:59:48+08:00 ] 127.0.0.1 /index.php/adminmenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003259s ]
+ERR: 无法加载模块:Adminmenu
+
+[ 2016-12-08T18:04:01+08:00 ] 127.0.0.1 /index.php/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002854s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-08T18:06:37+08:00 ] 127.0.0.1 /index.php/user/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+ERR: 无法加载模块:User
+

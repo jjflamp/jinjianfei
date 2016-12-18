@@ -1,0 +1,138 @@
+<extend name="public:layout"/>
+<block name="main-content">
+
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="__APP__/admin">后台主页</a>
+                </li>
+
+                <li>
+                    <a href="#">会员管理</a>
+                </li>
+                <li class="active">添加会员</li>
+            </ul><!--位置导航 -->
+        </div>
+        <div class="page-content">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="pull-right">
+                            <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="返回"><i class=" icon-reply "></i></a>
+                        </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="icon-edit"></i> 添加会员</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form id="singcms-form" >
+                                    <table class="table table-bordered">
+                                    <tbody>
+                                    <tr >
+                                        <td class="col-sm-2 ">姓名:</td>
+                                        <td  class="col-sm-2 "><input type="text" class="form-control" name="name"  placeholder="请输入您的真实姓名"value=""></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>密码:</td>
+                                        <td><input type="password" class="form-control" placeholder="请输入6-12位密码，数字、字母、下划线"name="password"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>重复密码:</td>
+                                        <td><input type="password" class="form-control" placeholder="请再次输入密码" name="password"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>邮箱:</td>
+                                        <td><input type="text" class="form-control" name="email" placeholder="请输入有限邮箱，可用于登录"value=""></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>性别:</td>
+                                        <td id="order-status">
+                                            <input name="sex" type="radio" value="1" checked="checked" >男
+                                            <input name="sex" type="radio" value="0" >女
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>生日:</td>
+                                        <td id="order-status">
+                                            <input id="hello" name='birthday' style="height:30px;" class="laydate-icon form-control">
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>有无推荐人:</td>
+                                        <td id="order-status">
+                                            <input name="tui" type="radio" value="0" onclick="$('#tr').hide();" checked="checked" >无
+                                            <input name="tui" type="radio" value="1" onclick="$('#tr').show();">有
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr id="tr" hidden>
+                                        <td>推荐人编号:</td>
+                                        <td><input class="form-control" type="text" placeholder="请输入推荐人编号（大写）" name="num"></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>手机:</td>
+                                        <td>
+                                            <input type="text" class="form-control" placeholder="请输入您常用的手机号可用于登录" name="phone">
+                                        </td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button type="button" class="btn btn-info" id="singcms-button-submit">
+                                                <i class="ace-icon fa fa-check bigger-110"></i> 保存
+                                            </button>
+                                            <input type="reset" class="btn btn-default pull-right" value="重置">
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>>
+</block>
+<block name="js">
+    <script>
+        var SCOPE ={
+            "save_url" : "__URL__/insert",
+            "jump_url" : "__URL__/index",
+        }
+    </script>
+    <script src="__PUBLIC__/laydate/laydate.js"></script>
+    </script><script src="__PUBLIC__/js/dialog/layer.js"></script>
+    <script src="__PUBLIC__/js/dialog.js"></script>
+    <!--<script type="text/javascript" src="__PUBLIC__/admin/xiaoli/common.js"></script>-->
+    <script src="__PUBLIC__/js/admin/common.js"></script>
+    <!--日期js引入-->
+    <script>
+        //时间js
+        laydate({
+            elem: '#hello', //目标元素。由于laydate.js封装了一个轻量级的选择器引擎，因此elem还允许你传入class、tag但必须按照这种方式 '#id .class'
+//            event: 'focus' //响应事件。如果没有传入event，则按照默认的click
+            max:laydate.now(-1),
+        });
+
+    </script>
+
+</block>

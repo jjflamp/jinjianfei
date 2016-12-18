@@ -1,0 +1,6 @@
+[ 2016-12-12T12:26:11+08:00 ] 127.0.0.1 /index.php/index/datetime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002366s ]
+ERR: 无法加载模块:Index
+

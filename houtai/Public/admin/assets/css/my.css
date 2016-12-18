@@ -1,0 +1,31 @@
+.form-inline{
+    background-color:#F8F8F8;
+}
+
+/*操作按钮样式*/
+@charset "utf-8";
+#sidebar .menu li {color: white;background-image: url(../images/admin/submenuA.gif);background-repeat: no-repeat;background-position: left bottom;}
+#sidebar .menu a {display: inline-block;width: 171px;line-height: 32px;padding-left: 24px;}
+#sidebar .menu a.current {background-image: url(../images/admin/submenuB.gif);background-repeat: no-repeat;font-weight: 800;}
+#sidebar .menu  .submenu .sub-index a{padding-left:8px;}
+#sidebar .menu  .submenu li {display: none;}
+#sidebar .menu  .submenu.current li {display: block;}
+#sidebar .menu  .submenu .sub-index{display: block;}
+a{text-decoration: none;color:#666}
+a:hover{color:#c00;}
+form{line-height:32px;}
+
+
+/*==========滑过操作插件==========*/
+a.action{border: 1px solid #ff;height: 22px; padding: 0 4px;}
+.hidden1 a.action {min-width: 53px; position: relative; display: inline-block; height: 22px;}
+.show_munu a.action{background: #fbfbfb;  border: 1px solid #acacac; position: relative; z-index: 1000; display: inline-block; height: 22px; min-width: 53px;}
+.show_munu a.top{border-top: none;padding-top: 1px;}
+.show_munu a.bottom{border-bottom: none;padding-bottom: 1px;}
+.hidden1 .menu_select{display: none; min-width: 100px;}
+.operat .menu_select{position: absolute; left: 0; top: 24px; z-index: 998; background: #fbfbfb; border: 1px solid #acacac; box-shadow: 0 0 5px rgba(201, 201, 201, 0.9);min-width: 80px;max-height: 300px;overflow: auto;}
+.operat .menu_select ul{min-width: 100px;}
+.operat .menu_select ul li {display: block; margin: 5px 0; vertical-align: middle; min-width: 100px;_width:100px;}
+.operat .menu_select ul li a { display: block; height: 24px; width: auto; min-width: 90px;  text-align: left;padding-left: 8px;}
+.operat .menu_select ul li a:hover{background: #f1f1f1;}
+

@@ -1,0 +1,36 @@
+[ 2016-12-14T09:56:21+08:00 ] 127.0.0.1 /index.php/houtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001923s ]
+ERR: 无法加载模块:Houtai
+
+[ 2016-12-14T09:56:36+08:00 ] 127.0.0.1 /index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003487s ]
+ERR: 无法加载模块:Login
+
+[ 2016-12-14T10:09:52+08:00 ] 127.0.0.1 /index.php/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003168s ]
+ERR: 无法加载模块:User
+
+[ 2016-12-14T10:10:02+08:00 ] 127.0.0.1 /index.php/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+ERR: 无法加载模块:User
+
+[ 2016-12-14T10:37:12+08:00 ] 127.0.0.1 /index.php/user/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+ERR: 无法加载模块:User
+
+[ 2016-12-14T18:34:30+08:00 ] 127.0.0.1 /index.php/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001899s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,12 @@
+[ 2016-12-09T13:43:52+08:00 ] 127.0.0.1 /index.php/rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004279s ]
+ERR: 无法加载模块:Rule
+
+[ 2016-12-09T13:44:47+08:00 ] 127.0.0.1 /index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002399s ]
+ERR: 无法加载模块:Login
+
